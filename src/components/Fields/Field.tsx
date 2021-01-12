@@ -93,7 +93,7 @@ export class Field extends React.Component<FieldProps> {
                   schema={field.schema}
                   skipReadOnly={this.props.skipReadOnly}
                   skipWriteOnly={this.props.skipWriteOnly}
-                  showTitle={this.props.showTitle}
+                  hideObjectTitle={this.props.hideObjectTitle}
                 />
               </InnerPropertiesWrap>
             </PropertyCellWithInner>
