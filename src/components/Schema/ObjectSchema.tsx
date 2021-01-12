@@ -98,6 +98,8 @@ export class ObjectSchema extends React.Component<ObjectSchemaProps> {
                   showExamples={false}
                   skipReadOnly={this.props.skipReadOnly}
                   skipWriteOnly={this.props.skipWriteOnly}
+                  hideObjectTitle={this.props.hideObjectTitle}
+                  hideObjectDescription={this.props.hideObjectDescription}
                 />
               );
             })}

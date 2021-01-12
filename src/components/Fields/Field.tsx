@@ -94,6 +94,7 @@ export class Field extends React.Component<FieldProps> {
                   skipReadOnly={this.props.skipReadOnly}
                   skipWriteOnly={this.props.skipWriteOnly}
                   hideObjectTitle={this.props.hideObjectTitle}
+                  hideObjectDescription={this.props.hideObjectDescription}
                 />
               </InnerPropertiesWrap>
             </PropertyCellWithInner>
