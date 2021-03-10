@@ -1,10 +1,10 @@
 {
-  "name": "redoc-cli",
-  "version": "0.10.2",
-  "description": "ReDoc's Command Line Interface",
+  "name": "@aleung/redoc-cli",
+  "version": "2.0.1",
+  "description": "ReDoc's Command Line Interface (maintainence fork)",
   "main": "index.js",
   "bin": "index.js",
-  "repository": "https://github.com/Redocly/redoc",
+  "repository": "https://github.com/aleung/redoc",
   "author": "Roman Hotsiy <gotsijroman@gmail.com>",
   "license": "MIT",
   "engines": {
@@ -19,7 +19,7 @@
     "node-libs-browser": "^2.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "redoc": "2.0.0-rc.48",
+    "@aleung/redoc": "^2.0.0",
     "styled-components": "^5.1.1",
     "tslib": "^2.0.0",
     "yargs": "^15.4.1"
