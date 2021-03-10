@@ -39,7 +39,7 @@ interface Options {
   redocOptions?: any;
 }
 
-const BUNDLES_DIR = dirname(require.resolve('redoc'));
+const BUNDLES_DIR = dirname(require.resolve('@aleung/redoc'));
 
 /* tslint:disable-next-line */
 YargsParser.command(
