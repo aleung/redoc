@@ -238,7 +238,7 @@ You can use all of the following options with standalone version on <redoc> tag 
 * `hideSchemaPattern` - if set, the pattern is not shown in the schema.
 * `hideSingleRequestSampleTab` - do not show the request sample tab for requests with only one sample.
 * `expandSingleSchemaField` - automatically expand single field in a schema
-* `jsonSampleExpandLevel` - set the default expand level for JSON payload samples (responses and request body). Special value 'all' expands all levels. The default value is `2`.
+* `jsonSampleExpandLevel` - set the default expand level for JSON payload samples (responses and request body). Special value `"all"` expands all levels. The default value is `2`.
 * `hideSchemaTitles` - do not display schema `title` next to to the type
 * `simpleOneOfTypeLabel` - show only unique oneOf types in the label without titles
 * `lazyRendering` - _Not implemented yet_ ~~if set, enables lazy rendering mode in ReDoc. This mode is useful for APIs with big number of operations (e.g. > 50). In this mode ReDoc shows initial screen ASAP and then renders the rest operations asynchronously while showing progress bar on the top. Check out the [demo](\\redocly.github.io/redoc) for the example.~~
@@ -255,7 +255,6 @@ You can use all of the following options with standalone version on <redoc> tag 
   * **function**: A getter function. Must return a number representing the offset (in pixels).
 * `showExtensions` - show vendor extensions ("x-" fields). Extensions used by ReDoc are ignored. Can be boolean or an array of `string` with names of extensions to display.
 * `sortPropsAlphabetically` - sort properties alphabetically.
-* `suppressWarnings` - if set, warnings are not rendered at the top of documentation (they still are logged to the console).
 * `payloadSampleIdx` - if set, payload sample will be inserted at this index or last. Indexes start from 0.
 * `theme` - ReDoc theme. For details check [theme docs](#redoc-theme-object).
 * `untrustedSpec` - if set, the spec is considered untrusted and all HTML/markdown is sanitized to prevent XSS. **Disabled by default** for performance reasons. **Enable this option if you work with untrusted user data!**
