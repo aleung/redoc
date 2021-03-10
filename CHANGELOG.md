@@ -1,3 +1,17 @@
+# 2.0.1 (WIP)
+
+* Rebase upstream
+
+
+# 2.0.0 (2021-01-13)
+
+* Bug Fixes
+  * Render object schema title and descriptions [#1497](https://github.com/Redocly/redoc/pull/1497)
+
+----
+
+Upstream changelog:
+
 # [2.0.0-rc.51](https://github.com/Redocly/redoc/compare/v2.0.0-rc.50...v2.0.0-rc.51) (2021-04-08)
 
 ### Bug Fixes

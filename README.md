@@ -10,6 +10,8 @@
 
 </div>
 
+> **Note:** This is a maintainence fork of ReDoc, including some PR which are not merged in upstream. Publish at https://www.npmjs.com/package/@aleung/redoc and https://www.npmjs.com/package/@aleung/redoc-cli
+
 **This is README for `2.0` version of ReDoc (React based). README for `1.x` version is on the branch [v1.x](https://github.com/Redocly/redoc/tree/v1.x)**
 
 
