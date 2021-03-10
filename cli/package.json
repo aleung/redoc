@@ -1,6 +1,6 @@
 {
   "name": "@aleung/redoc-cli",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "ReDoc's Command Line Interface (maintainence fork)",
   "main": "index.js",
   "bin": "index.js",
