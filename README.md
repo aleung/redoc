@@ -162,7 +162,7 @@ Also you can pass options:
 
 ```js
 <RedocStandalone
-  specUrl="http://rebilly.github.io/RebillyAPI/openapi.json"
+  specUrl="https://api.redoc.ly/registry/rebilly/core-api/core/bundle/master/openapi.yaml"
   options={{
     nativeScrollbars: true,
     theme: { colors: { primary: { main: '#dd5522' } } },
@@ -176,7 +176,7 @@ You can also specify `onLoaded` callback which will be called each time Redoc ha
 
 ```js
 <RedocStandalone
-  specUrl="http://rebilly.github.io/RebillyAPI/openapi.json"
+  specUrl="https://api.redoc.ly/registry/rebilly/core-api/core/bundle/master/openapi.yaml"
   onLoaded={error => {
     if (!error) {
       console.log('Yay!');
@@ -325,7 +325,7 @@ Redoc.init(specOrSpecUrl, options, element, callback?)
 - `specOrSpecUrl` is either JSON object with specification or an URL to the spec in `JSON` or `YAML` format
 - `options` [options object](#redoc-options-object)
 - `element` DOM element to put ReDoc into
-- `callback` (optional) - callback to be called after Redoc has been fully rendered. It is also called also on errors with error as the first argument
+- `callback` (optional) - callback to be called after Redoc has been fully rendered. It is also called on errors with error as the first argument
 
 ```js
 Redoc.init('http://petstore.swagger.io/v2/swagger.json', {
