@@ -1,7 +1,7 @@
 # 2.0.1 (WIP)
 
 * Rebase upstream
-
+* Update webpack bundle banner to include '@aleung' scope
 
 # 2.0.0 (2021-01-13)
 
