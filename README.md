@@ -248,6 +248,7 @@ You can use all of the following options with standalone version on <redoc> tag 
 * `nativeScrollbars` - use native scrollbar for sidemenu instead of perfect-scroll (scrolling performance optimization for big specs).
 * `noAutoAuth` - do not inject Authentication section automatically.
 * `onlyRequiredInSamples` - shows only required fields in request samples.
+* `disableAutoSamples` - disable auto sample generation for non-required object properties when the schema hasn't explicit example nor default value.
 * `pathInMiddlePanel` - show path link and HTTP verb in the middle panel instead of the right one.
 * `requiredPropsFirst` - show required properties first ordered in the same order as in `required` array.
 * `scrollYOffset` - If set, specifies a vertical scroll-offset. This is often useful when there are fixed positioned elements at the top of the page, such as navbars, headers etc;

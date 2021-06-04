@@ -21,6 +21,7 @@ export interface RedocRawOptions {
   hideDownloadButton?: boolean | string;
   disableSearch?: boolean | string;
   onlyRequiredInSamples?: boolean | string;
+  disableAutoSamples?: boolean | string;
   showExtensions?: boolean | string | string[];
   hideSingleRequestSampleTab?: boolean | string;
   menuToggle?: boolean | string;
@@ -179,6 +180,7 @@ export class RedocNormalizedOptions {
   hideDownloadButton: boolean;
   disableSearch: boolean;
   onlyRequiredInSamples: boolean;
+  disableAutoSamples: boolean;
   showExtensions: boolean | string[];
   hideSingleRequestSampleTab: boolean;
   menuToggle: boolean;
@@ -238,6 +240,7 @@ export class RedocNormalizedOptions {
     this.hideDownloadButton = argValueToBoolean(raw.hideDownloadButton);
     this.disableSearch = argValueToBoolean(raw.disableSearch);
     this.onlyRequiredInSamples = argValueToBoolean(raw.onlyRequiredInSamples);
+    this.disableAutoSamples = argValueToBoolean(raw.disableAutoSamples);
     this.showExtensions = RedocNormalizedOptions.normalizeShowExtensions(raw.showExtensions);
     this.hideSingleRequestSampleTab = argValueToBoolean(raw.hideSingleRequestSampleTab);
     this.menuToggle = argValueToBoolean(raw.menuToggle, true);

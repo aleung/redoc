@@ -1,4 +1,4 @@
-import * as Sampler from 'openapi-sampler';
+import * as Sampler from '@aleung/openapi-sampler';
 
 import { OpenAPIMediaType } from '../../types';
 import { RedocNormalizedOptions } from '../RedocNormalizedOptions';
@@ -14,6 +14,7 @@ export class MediaTypeModel {
   name: string;
   isRequestType: boolean;
   onlyRequiredInSamples: boolean;
+  disableAutoSamples: boolean;
 
   /**
    * @param isRequestType needed to know if skipe RO/RW fields in objects
@@ -29,6 +30,7 @@ export class MediaTypeModel {
     this.isRequestType = isRequestType;
     this.schema = info.schema && new SchemaModel(parser, info.schema, '', options);
     this.onlyRequiredInSamples = options.onlyRequiredInSamples;
+    this.disableAutoSamples = options.disableAutoSamples;
     if (info.examples !== undefined) {
       this.examples = mapValues(
         info.examples,
@@ -53,6 +55,7 @@ export class MediaTypeModel {
       skipReadOnly: this.isRequestType,
       skipNonRequired: this.isRequestType && this.onlyRequiredInSamples,
       skipWriteOnly: !this.isRequestType,
+      disableNonRequiredAutoGen: this.disableAutoSamples,
       maxSampleDepth: 10,
     };
     if (this.schema && this.schema.oneOf) {
