@@ -2,7 +2,7 @@
 
 ## 2.1.4 (2023-01-23)
 
-* Bug Fixes
+* Features
   * Render object schema title and descriptions [#1497](https://github.com/Redocly/redoc/pull/1497)
 
 ----
@@ -27,7 +27,7 @@
 ### Bug Fixes
 
 * react18 cli integration ([#2404](https://github.com/Redocly/redoc/issues/2404)) ([76edc15](https://github.com/Redocly/redoc/commit/76edc159399150778b384be87ee958a93e5c491c))
-* style RefreshToken URL as <code> in the authorization section ([1d61001](https://github.com/Redocly/redoc/commit/1d6100111a0f3b609dadbd706354ce6125947df2))
+* style RefreshToken URL as `<code>` in the authorization section ([1d61001](https://github.com/Redocly/redoc/commit/1d6100111a0f3b609dadbd706354ce6125947df2))
 
 
 
