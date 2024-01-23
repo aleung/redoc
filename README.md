@@ -9,6 +9,10 @@
 </div>
 
 
+> **Note:** This is a maintainence fork of ReDoc, including some PRs which are not merged in upstream.
+> Please read CHANGLOG.md for the difference between upstream.
+> Publish at https://www.npmjs.com/package/@aleung/redoc and https://www.npmjs.com/package/@aleung/redoc-cli
+
 ## About Redoc
 
 Redoc is an open source tool for generating documentation from OpenAPI (formerly Swagger) definitions.
@@ -49,7 +53,7 @@ Redoc is provided as a CLI tool (also distributed as a Docker image), HTML tag, 
 If you have Node installed, quickly generate documentation using `npx`:
 
 ```
-npx @redocly/cli build-docs openapi.yaml 
+npx @redocly/cli build-docs openapi.yaml
 ```
 
 The tool outputs by default to a file named `redoc-static.html` that you can open in your browser.

@@ -1,3 +1,14 @@
+# Changelog
+
+## 2.1.4 (2023-01-23)
+
+* Bug Fixes
+  * Render object schema title and descriptions [#1497](https://github.com/Redocly/redoc/pull/1497)
+
+----
+
+# Upstream changelog
+
 ## [2.1.3](https://github.com/Redocly/redoc/compare/v2.1.2...v2.1.3) (2023-10-24)
 
 

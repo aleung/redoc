@@ -28,10 +28,10 @@ try {
   console.error('Skipping REDOC_REVISION');
 }
 
-const BANNER = `ReDoc - OpenAPI/Swagger-generated API Reference Documentation
+const BANNER = `@aleung/ReDoc - OpenAPI/Swagger-generated API Reference Documentation
 -------------------------------------------------------------
   Version: ${VERSION}
-  Repo: https://github.com/Redocly/redoc`;
+  Repo: https://github.com/aleung/redoc`;
 
 export default (env: { standalone?: boolean; browser?: boolean } = {}) => ({
   entry: env.standalone ? ['./src/polyfills.ts', './src/standalone.tsx'] : './src/index.ts',

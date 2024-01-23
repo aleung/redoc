@@ -73,6 +73,16 @@ $ npm run changelog
 
 There are some other scripts available in the `scripts` section of the `package.json` file.
 
+To release the package:
+
+```sh
+$ npm test
+$ npm run bundle
+
+$ npm config set //registry.npmjs.org/:_authToken=YOUR_ACCESS_TOKEN
+$ npm publish
+```
+
 ## Project Structure
 
 - **`benchmark`**: contains basic perf benchmark. Not fully ready yet
